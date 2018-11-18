@@ -1,0 +1,27 @@
+body,
+.instagram-wrapper {
+    margin:0;
+    padding:0;
+}
+.instagram-wrapper a {
+    float:left;
+    margin:0 1px 1px 0;
+    padding:0;
+    width:calc(20% - 1px);
+}
+.instagram-wrapper a:link, 
+.instagram-wrapper a:visited {
+    opacity:0.7;
+    transition: opacity 400ms ease-in-out;
+    overflow:hidden;
+}
+.instagram-wrapper a:hover {
+    opacity:1.0;
+    transition: opacity 400ms ease-in-out;
+}
+.instagram-wrapper a img {
+    display:block;
+	width:100%;
+    margin:0;
+    padding:0;
+}
